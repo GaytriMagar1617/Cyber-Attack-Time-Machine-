@@ -1,0 +1,15 @@
+[
+    {
+        "rule": "Failed Login Detection",
+        "severity": "medium",
+        "description": "5 failed login event(s) detected.",
+        "event_count": 5
+    },
+    {
+        "rule": "Possible Brute Force Attack",
+        "severity": "high",
+        "user": "TestUser",
+        "event_count": 5,
+        "description": "5 failed logons detected for user 'TestUser'."
+    }
+]
